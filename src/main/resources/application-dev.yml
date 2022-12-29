@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+      
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.41:3306/database1?serverTimezone=Asia/Seoul
+    username: root
+    password: 70597059
+
+      
+
